@@ -1,0 +1,162 @@
+/*HEADER 1024px - 320px*/
+@media screen and (max-width:1025px){
+nav{
+  ul li {
+    padding: 0 5px;
+  }
+}
+}
+@media screen and (max-width:800px){
+  header{
+    section{
+      padding-bottom:100px;
+    }
+  }
+  .top_hd{
+    width:95%;
+  }
+  nav{
+    ul {
+      display: none;
+    }
+    #menu{
+      display: block;
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      margin-top:5px;
+    }
+  }
+  .slide_hd{
+    width: 95%;
+    margin:120px auto 0 auto;
+  }
+  .slid{
+    h1{
+      font-size: 28px;
+    }
+  }
+}
+@media screen and (max-width:376px){
+
+  .slid{
+    h1{
+      font-size: 25px;
+    }
+    hr{
+      width: 10%;
+    }
+}
+}
+/*FOOTER 1024px 321px*/
+@media screen and (max-width:1025px){
+  .foot_block{
+    padding: 0 10px;
+  }
+  .cont_foot{
+    form{
+      margin-bottom: 50px;
+    }
+  }
+}
+@media screen and (max-width:800px){
+  .foot_main{
+    width: 100%;
+  }
+  .fot_bot{
+    width: 100%;
+  }
+}
+@media screen and (max-width:426px){
+  footer{
+    section{
+      padding: 90px 0 40px 0;
+    }
+  }
+  .foot_main{
+    flex-flow: column;
+    justify-content: center;
+    width: 97%;
+  }
+  .foot_block{
+    width: 100%;
+    padding: 0;
+    margin-bottom: 40px;
+    flex-flow: column;
+    h3{
+      margin-bottom:20px;
+    }
+  }
+  .logo_foot{
+    img{
+      width: 15%;
+    }
+  }
+  .cont_foot{
+    form{
+      margin-bottom: 20px;
+    }
+    input{
+      width: 70%;
+    }
+    button{
+      padding: 0 20px;
+    }
+  }
+  .fot_bot{
+    margin:30px auto;
+    flex-flow: column;
+    ul li{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px
+    }
+    p{
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+}
+@media screen and (max-width:321px) {
+    .logo_foot{
+      img{
+        width: 20%;
+      }
+    }
+}
+/*SEC_ONE 1024px 321px*/
+@media screen and (max-width:1024px){
+  .mian_lg{
+    margin-right:50px;
+  }
+}
+@media screen and (max-width:800px) {
+.sec_one{
+  width: 98%;
+}
+.mian_lg{
+  margin-left: 0
+}
+}
+@media screen and (max-width:426px) {
+.sec_one{
+  flex-flow: column;
+}
+.mian_lg{
+  width: 100%;
+  img{
+    display: block;
+    margin: 0 auto 70px auto;
+  }
+}
+.text_on{
+  width: 100%;
+  h2{
+    text-align: center;
+  }
+  button{
+    display: block;
+    margin:0 auto;
+  }
+}
+}

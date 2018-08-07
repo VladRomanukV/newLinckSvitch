@@ -1,0 +1,97 @@
+@import 'reset';
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display|Roboto');
+
+$fon_h1:'Playfair Display', serif;
+$fon_h2:'Playfair Display', serif;
+$fon_h3:'Playfair Display', serif;
+$fon_h4:'Playfair Display', serif;
+$fon_h5:'Playfair Display', serif;
+$fon_h6:'Playfair Display', serif;
+$fon_bt:'Hammersmith One', sans-serif;
+$fon_a:'Roboto', sans-serif;
+$fon_tx:'Roboto', sans-serif;
+
+$col_bg: #e8e8e8;
+$col_tx: rgba(#413d4b, 0.80);
+$col_zg: rgba(#413d4b, 0.80);
+$col_h2: #rgb(209, 74, 36);
+$col_h3: #413d4b;
+$col_p: rgb(187, 72, 154);
+$col_im:rgba(#2e2552, 0.8);
+$col_a: #ffffff;
+$col_hr: #00e0d0;
+$col_bt: #00e0d0;
+$col_lg: #6fbcce;
+$col_h2: #413d4b;
+
+$siz_h1:32px;
+$siz_h2:22px;
+$siz_h3:14px;
+$siz_h4:25px;
+$siz_h5:20px;
+$siz_h6:18px;
+$siz_tx:16px;
+
+body{
+  font-family: $fon_tx;
+  font-size: $siz_tx;
+}
+.open_modal{
+    overflow-y: hidden;
+    padding-right: 15px;
+}
+@mixin btn($br, $rb, $cl, $pd, $bg, $ff, $fw){
+  border-radius: $br;
+  border: $rb;
+  color: $cl;
+  padding: $pd;
+  background: $bg;
+  font-family: $ff;
+  font-weight: $fw;
+}
+
+@import 'header';
+@import 'main';
+@import 'footer';
+@import 'media-qeri';
+
+// MODALS WINDOW
+.overle{
+  width: 100%;
+  height: 100%;
+
+  background: rgba(#000000, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 9999;
+}
+.modal{
+  width:320px / 1324px * 100%;
+  padding:20px;
+
+  background: #fff;
+  text-align: center;
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  z-index: 10000;
+  margin-left: -150px;
+  display: none;
+  form textarea{
+      height: 100px;
+  }
+}
+.js_close_modal{
+  position: absolute;
+  top: 0;
+  right: -50px;
+    list-style: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    text-decoration: none;
+}

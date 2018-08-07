@@ -1,0 +1,290 @@
+main{
+
+}
+.sec_one{
+  width:960px / 1324px * 100%;
+  display: flex;
+  margin: 70px auto 0 auto;
+  padding-bottom: 70px;
+}
+.mian_lg{
+  width: 330px / 960px * 100%;
+  margin-left: 70px
+}
+.text_on{
+  width: 570px / 960px * 100%;
+  h2{
+    color: #413d4b;
+    font-size: $siz_h2;
+    font-family: $fon_h2;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  p{
+    color: rgba(#413d4b, 0.65);
+    line-height: 1.5;
+    margin-bottom: 36px;
+    font-size: 14px;
+  }
+  button{@include btn(3px, 1px solid #00e0d0,$col_bt,13px 20px,rgba(#000000, 0), $fon_bt, 600);}
+}
+
+/*02 sec_two ===================================
+==============================================*/
+.sec_two{
+  background: url('/img/sec_two.png');
+  background-size: cover;
+}
+  .svet{
+    background: $col_im;
+    padding: 200px 0;
+  }
+  .watch{
+    width: 960px / 1324px * 100%;
+    display: block;
+    margin: 0 auto;
+  img{
+    width: 30px;
+    display: block;
+    margin: 0 auto 30px auto;
+  }
+  p{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+  }
+}
+/*03 sec_tri===================================
+=============================================*/
+.sec_tri{
+  width: 960px / 1324px * 100%;
+  margin: 0 auto;
+  display: block;
+  margin: 67px auto 20px auto;
+  h2{
+    font-size: $siz_h2;
+    font-weight: 500;
+    font-family: $fon_h2;
+    margin-bottom:20px;
+    color: $col_h2;
+    text-align: center;
+  }
+  span{
+    color: $col_zg;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+  hr{
+    margin-bottom: 85px;
+    border:1px solid #c6c4c9;
+    width: 5%;
+  }
+}
+.sect_block{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.blokc_tre{
+  width: 300px / 960px * 100%;
+  display: flex;
+  flex-flow: column;
+  align-self: flex-end;
+  img{
+    display: flex;
+    margin: 0 auto 36px auto;
+    width: 40px;
+  }
+  h3{
+    font-size: $siz_h3;
+    font-family: $fon_h3;
+    color: $col_h3;
+    margin-bottom: 26px;
+    font-weight: 700;
+    text-align: center;
+  }
+  p{
+    font-size: 14px;
+    color: $col_tx;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 85px
+  }
+}
+/*04 sec_vor==================================================
+============================================================*/
+.sec_vor{
+background: url('/img/sec_five.png');
+background-size: cover;
+.svet_fi{
+  background: $col_im;
+  padding: 50px 0 70px 0;
+  h2{
+    font-size: $siz_h2;
+    font-weight: 500;
+    font-family: $fon_h2;
+    margin-bottom:20px;
+    color: #f9f9f9;
+    text-align: center;
+  }
+  span{
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  hr{
+    border:1px solid #9f9da1;
+    width: 5%;
+    margin-bottom: 47px;
+  }
+}
+}
+.wrap_vor{
+  width: 960px / 1324px * 100%;
+  margin: 0 auto;
+  p{
+    text-align: center;
+    margin-top: 70px;
+    color: #fff;
+  }
+  button{@include btn(3px, 1px solid #00e0d0,$col_bt,13px 20px,rgba(#000000, 0), $fon_bt, 600);
+  display: block;
+  margin: 30px auto 0 auto;
+}
+}
+.block_vor{
+  width: 220px / 960px * 100%;
+  border-bottom: 1px solid #a7a7a7;
+  display: flex;
+  flex-flow: column;
+  h4{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin: 21px 0 10px 0;
+  }
+  span{
+  color: rgba(#fafafa, 0.83);
+  font-size: 13px;
+  }
+  img{
+    justify-content: center;
+  }
+}
+/*05 sec_five ============================================
+========================================================*/
+.sec_five{
+  div{
+    width:960px / 1324px * 100%;
+    display: flex;
+    margin: 70px auto 0 auto;
+    justify-content: space-between;
+    h2{
+      font-family: $fon_h2;
+      font-size: $siz_h2;
+      color: $col_h2;
+      font-weight: 500px;
+      justify-content: flex-start;
+    }
+    p{
+      justify-content: flex-end;
+    }
+  }
+  button{@include btn(3px, 1px solid #00e0d0,$col_bt,13px 20px,rgba(#000000, 0), $fon_bt, 600);
+  display: block;
+  margin: 30px auto 0 auto;
+}
+}
+/*06 six_sec ====================================
+===============================================*/
+.six_sec{
+  background: url('/img/sec_seven.png');
+  background-size: cover;
+  .six_fon{
+    background: $col_im;
+    padding: 70px 0;
+  }
+}
+.slide_six{
+  display: flex;
+  width: 960px / 1324px * 100%;
+  margin: 0 auto;
+  flex-flow: column;
+}
+.con_six{
+  color: #fff;
+  h2{
+    font-family: $fon_h2;
+    font-size: $siz_h1 + 40px;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+  p{
+    font-family: $fon_h2;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  span{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  }
+}
+.img_six{
+  margin: 65px auto 0 auto;
+}
+/*07 sevn_sec =======================================
+===================================================*/
+.sevn_sec{
+  width: 960px / 1324px * 100%;
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-between;
+  h2{
+    font-size: $siz_h2;
+    color: $col_h2;
+    font-family: $fon_h2;
+    font-weight: 600;
+  }
+}
+.form{
+  justify-content: flex-start;
+  width: 490px / 960px * 100%;
+  h2{
+    margin-bottom: 35px;
+  }
+  input, textarea{
+    width: 460px / 490px * 100%;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 23px;
+    padding: 10px;
+    text-transform: capitalize;
+    color: #acabb1;
+  }
+  textarea{
+    height: 300px;
+  }
+  button{@include btn(3px, 1px solid #00e0d0,$col_bt,13px 20px,rgba(#000000, 0), $fon_bt, 600);}
+}
+.brend{
+  justify-content: flex-end;
+  width: 410px / 960px * 100%;
+  h2{
+    margin-bottom: 45px;
+  }
+  img{
+    width: 130px / 410px * 100%;
+    margin-bottom: 47px;
+  }
+
+}
+.brend img:nth-child(2n+3){
+padding-left: 35%
+}

@@ -1,0 +1,107 @@
+footer{
+  background: url('/img/foot_bg.png');
+  background-size: cover;
+  section{
+  background: $col_im;
+  padding: 90px 0 70px 0;
+  }
+}
+.foot_main{
+  width: 960px / 1324px * 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.foot_block{
+  width: 320px / 960px * 100%;
+  display: flex;
+  flex-flow: column;
+  padding: 0 20px;
+  align-self: flex-end;
+  flex-flow: wrap;
+  h3{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
+}
+.logo_foot{
+  margin-bottom: 30px;
+  img{
+    width: 40%;
+    float: left;
+  }
+  span{
+    font-size: 30px;
+    color: $col_lg;
+    float: left;
+    margin:20px 0 0 10px;
+  }
+}
+.cont_foot{
+  color: #fff;
+  font-size: 14px;
+  p{
+    line-height: 1.6;
+  }
+  ul{
+    img{
+      display: block;
+      width: 15px;
+      float: left;
+      padding-right: 20px;
+      padding-top: 2px;
+    }
+    li{
+      display: flex;
+      line-height: 1.5;
+      margin-bottom: 5px;
+    }
+  }
+  form{
+    display: flex;
+  }
+  input{
+    padding:10px;
+    border:1px solid #9d97af;
+    background: rgba(#000000, 0);
+    margin:0 10px 0 0;
+  }
+  button{
+    background: rgba(#a3a3a3, 0.6);
+    border: none;
+    img{
+      width: 30px;
+    }
+  }
+}
+.cont_foot{
+  .icon_seti{
+    margin-top: 30px;
+    img{
+      border: 1px solid #fff;
+      padding: 5px 10px;
+      margin: 0 2px;
+      border-radius: 50%;
+    }
+  }
+}
+.fot_bot{
+  display: flex;
+  margin: 70px auto 0 auto;
+  width:960px / 1324px * 100%;
+  justify-content: space-between;
+  ul li{
+    display: inline-flex;
+    justify-content: flex-start;
+    a{
+      color: #fff;
+      padding: 0 10px;
+    }
+  }
+  p{
+    justify-content: flex-end;
+    color: #fff;
+    padding-right: 20px;
+  }
+}
